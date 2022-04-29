@@ -245,3 +245,64 @@
       width: 100%;
     }
   }
+
+  /*formulario*/
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .form-registro{
+    width: 420px;
+    padding: 25px;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    margin-block-end: 60px;
+    /*box-shadow: 7px 13px 37px;*/
+  }
+
+  .form-registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ff5500;
+    font-family: 'calirbi';
+    font-size: 18px;
+  }
+
+  .form-registro p{
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .form-registro a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .form-registro a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+
+  .form-registro .boton{
+    width: 100%;
+    background: #ff5500;
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+  }
