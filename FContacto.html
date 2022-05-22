@@ -1,23 +1,24 @@
-<!DOCTYPEhtml >
-< html  lang =" es " >
-< cabeza >
-	< juego de caracteres meta  =" utf-8 " >
-	< meta  http-equiv =" X-UA-Compatible " content =" IE=edge " >
-	< meta  name =" viewport " content =" ancho=ancho-del-dispositivo, escala-inicial=1 " >
-	< título > formulario </ título >
-	< enlace  rel =" hoja de estilo " tipo =" texto/css " href =" contacto.css " >
-</ cabeza >
-< cuerpo >
-	< clase de formulario  =" formulario " >
-		< clase div  ="" formulario_contenedor >
-			< h2  class =" form_titulo " > contacto </ h2 >
-			< tipo de entrada  =" texto " clase =" formulario_entrada " marcador de posición =" nombre " >
-			< tipo de entrada  =" Correo " clase =" form_input " marcador de posición =" Correo " >
-			< textarea  class =" form_input form_input--mensaje " placeholder =" Mensaje " > </ textarea >
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>formulario</title>
+	<link rel="stylesheet" type="text/css" href="estilofomulariocorreo.css">
+</head>
+<body>
+	<form class="form" action="https://formspree.io/f/xpzbbavb"
+  method="POST"> 
+		<div class="form_container">
+			<h2 class="form_titulo">contacto</h2>
+			<input type="text" class="form_input" placeholder="nombre" name="name">
+			<input type="email" class="form_input" placeholder="Email:"name="email">
+			<textarea class="form_input form_input--menssage" placeholder="Mensaje"name="message"></textarea>
 
-			< tipo de entrada  =" enviar " valor =" enviar " clase =" formulario_cta " >
+			<input type="submit" value="Enviar" class="form_cta" >
 
-		</ div >
-	</ formulario >	
-</ cuerpo >
-</ html >
+		</div>
+	</form>	
+</body>
+</html>
