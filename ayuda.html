@@ -11,6 +11,10 @@
 </head>
 
 <body>
+    <div class="menu">
+        <a href="formulario.html">Registrarse</a>
+        <a href="iniciar_sesion.html">Iniciar Sesión</a>
+      </div>
     <div class="header">
         <img src="img/banner.png" alt="banner">
     </div>
@@ -22,15 +26,19 @@
         <a href="index.html">Inicio</a>
       </div>
 
-       <!--Ingresar usuario-->
-	  <section class="form-registro">
-		<h4>Iniciar usuario</h4>
-		<input class="control" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
-		<input class="control" type="password" name="contraseña" id="contraseña" placeholder="Ingrese una contraseña de 5 digitos">
-		<input class="boton" type="submit" value="Iniciar">
-		<p>¿Olvidaste tú clave? <a href="*">recupera tú clave</a></p>
-        <p>¿No tienes cuenta creada? <a href="formulario.html">Crea una</a></p>
-	</section>
+       <!--Contacto-->
+       <form class="form-registro" action="https://formspree.io/f/xpzbbavb"
+       method="POST"> 
+             <div class="form_container">
+                 <h2 class="form_container">contacto</h2><br>
+                 <input class="control" input type="text" class="form_input" placeholder="nombre" name="name">
+                 <input class="control" input type="email" class="form_input" placeholder="Email:"name="email">
+                 <input class="control" textarea class="form_input form_input--menssage" placeholder="En que podemos ayudar"name="message"></textarea>
+     
+                 <input class="boton" input type="submit" value="Enviar" class="form_cta" >
+     
+             </div>
+         </form>	
     
       <div class="footer">
         <div class="row">

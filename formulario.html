@@ -16,13 +16,13 @@
     </div>
 
     <div class="menu">
-		<a href="#">Ayuda</a>
+		<a href="ayuda.html">Ayuda</a>
         <a href="quienes_somos.html">¿Quiénes Somos?</a>
-        <a href="#">Tienda</a>
+        <a href="galeria.html">Tienda</a>
         <a href="index.html">Inicio</a>
       </div>
-<!--ingreso de los datos en el formulario-->
-<section class="form-registro">
+<!--ingreso de los datos en el formulario
+<section class="form-registro" action="https://formspree.io/f/xpzbbavb" method="POST">
     <h4>Formulario de registro</h4>
     <input class="control" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
     <input class="control" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos">
@@ -31,7 +31,44 @@
     <p>Acepto las condiciones generales y la política de confidencialidad</p>
     <input class="boton" type="submit" value="registrar">
     <p>¿Ya tienes cuenta? <a href="iniciar_sesion.html">inicia sesión</a></p>
-</section>
+</section>-->
+
+<form class="form-registro" action="https://formspree.io/f/xpzbbavb" method="POST"> 
+    <div class="form_container">
+        <h4>Formulario de registro</h4>
+        
+        <input class="control" input type="text" class="form_input" placeholder="nombre" name="name" aria-placeholder="Ingrese su nombre">
+        <input class="control" input type="text" class="form_input" placeholder="apellidos" name="name" aria-placeholder="Ingrese sus apellidos">
+        <input class="control" input type="email" class="form_input" placeholder="Email:"name="email">
+        <b style="color:#FDFDFD"> Seleccione Su Fecha de Nacimiento</b>
+        <input class="control" input type="date" name="dia"><br> 
+        <label style="color:#FDFDFD" for="Estado">Región:</label>
+        <select id="Estado" name="Estado" input class="control"> 
+            <option value="Arica">Arica</option>
+            <option value="Parinacota">Parinacota</option>
+            <option value="Tarapacá">Tarapacá</option>
+            <option value="Antofagasta">Antofagasta</option>
+            <option value="Atacama">Atacama</option>
+            <option value="Coquimbo">Coquimbo</option>
+            <option value="Valparaiso">Valparaiso</option>
+            <option value="Santiago">Santiago</option>
+            <option value="O'Higgins">O'Higgins</option>
+            <option value="Maule">Maule</option>
+            <option value="Ñuble">Ñuble</option>
+            <option value="Biobío">Biobío</option>
+            <option value="La Araucanía">La Araucanía</option>
+            <option value="Los Ríos">Los Ríos</option>
+            <option value="Los Lagos">Los Lagos</option>
+            <option value="Aysén">Aysén</option>
+            <option value="Magallanes">Magallanes</option>
+            </select>
+        <input class="control" type="password" name="contraseña" id="contraseña" placeholder="Ingrese una contraseña de 8 digitos">
+        <p>Acepto las condiciones generales y la política de confidencialidad</p>
+        <input class="boton"  input type="submit" value="Registrar" class="form_cta" >
+        <p>¿Ya tienes cuenta? <a href="iniciar_sesion.html">inicia sesión</a></p>
+
+    </div>
+</form>	
 
       <div class="footer">
         <div class="row">
