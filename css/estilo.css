@@ -338,6 +338,16 @@
     font-family: 'calirbi';
     font-size: 18px;
   }
+  .control2 {
+    width: 100%;
+    padding: 100px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    align-items:left;
+    border: 1px solid #ff5500;
+    font-family: 'calirbi';
+    font-size: 18px;
+  }
 
   .form-registro p{
     height: 40px;
